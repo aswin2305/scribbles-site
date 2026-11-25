@@ -76,3 +76,26 @@ html { scroll-behavior: smooth; }
   border-bottom: 1px dashed #d9d0bb;
 }
 .timeline .time { min-width: 90px; font-weight: 700; color: var(--terra); }
+
+.quote { font-style: italic; margin-bottom: 0.75rem; }
+.quote-by { font-size: 0.85rem; color: #5c685c; margin: 0; }
+
+.form-card {
+  background: #fff; border: 1px solid #e6dfd0;
+  border-radius: 16px; padding: 1.5rem;
+}
+.form-card label { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; }
+.hp-field { position: absolute; left: -9999px; }
+.form-success {
+  background: #e4ecdf; color: var(--sage-dark);
+  padding: 1rem; border-radius: 12px; font-weight: 600;
+}
+
+.map-frame {
+  width: 100%; height: 320px; border: 0; border-radius: 16px;
+}
+
+.site-footer {
+  background: var(--ink); color: #e9e4d6;
+  padding: 1.5rem 0; font-size: 0.9rem;
+}
