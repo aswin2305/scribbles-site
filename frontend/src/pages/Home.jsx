@@ -3,6 +3,7 @@ import Hero from "../components/Hero.jsx";
 import WhyMontessori from "../components/WhyMontessori.jsx";
 import Programs from "../components/Programs.jsx";
 import DailyRoutine from "../components/DailyRoutine.jsx";
+import Gallery from "../components/Gallery.jsx";
 import Reviews from "../components/Reviews.jsx";
 import EnquiryForm from "../components/EnquiryForm.jsx";
 import VisitUs from "../components/VisitUs.jsx";
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyMontessori />
       <Programs />
       <DailyRoutine />
+      <Gallery />
       <Reviews />
       <EnquiryForm />
       <VisitUs />

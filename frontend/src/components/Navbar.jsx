@@ -4,11 +4,13 @@ import { SCHOOL } from "../config.js";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const links = [
-    ["Why Montessori", "#why"],
-    ["Programs", "#programs"],
-    ["Reviews", "#reviews"],
-    ["Visit Us", "#visit"],
-  ];
+  ["Why Montessori", "#why"],
+  ["Programs", "#programs"],
+  ["Our Day", "#routine"],
+  ["Gallery", "#gallery"],
+  ["Reviews", "#reviews"],
+  ["Visit Us", "#visit"],
+];
 
   return (
     <nav className="site-nav">
