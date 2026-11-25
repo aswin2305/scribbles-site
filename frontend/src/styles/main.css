@@ -54,3 +54,25 @@ html { scroll-behavior: smooth; }
 }
 .float-call { background: var(--terra); }
 .float-wa { background: #25a244; }
+
+.section { padding: 4rem 0; }
+.section-alt { background: #f1ebdc; }
+.section h2 { font-weight: 700; margin-bottom: 0.5rem; }
+.section-sub { color: #5c685c; max-width: 560px; margin-bottom: 2rem; }
+
+.card-soft {
+  background: #fff; border: 1px solid #e6dfd0; border-radius: 16px;
+  padding: 1.5rem; height: 100%;
+}
+.card-soft h3 { font-size: 1.15rem; font-weight: 700; }
+.tag {
+  display: inline-block; background: #e4ecdf; color: var(--sage-dark);
+  padding: 0.2rem 0.7rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600;
+}
+
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline li {
+  display: flex; gap: 1rem; padding: 0.9rem 0;
+  border-bottom: 1px dashed #d9d0bb;
+}
+.timeline .time { min-width: 90px; font-weight: 700; color: var(--terra); }
